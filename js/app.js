@@ -140,4 +140,36 @@ function fun6() {
 
 }
 fun6();
+
+
+
+//__________________________________________________________________________
+
+
+
+
+function guessColor (){
+    const colorArr=['red','green','blue','yellow','gray','white','brown','skyBlue','black','orange','purple','pink','maroon','gold','bronze','silver'];
+    alert('One last game, you have 6 attempts to choose the correct favorite color from list of colors');
+  
+    for(let i=0 ; i < 6 ; i++ ){
+      var answer = prompt(`you have ${6-i} attempts: \n select a color from the list.\n which one is my favorite color?\n ${colorArr.join(' - ')}`).toLowerCase();
+      if(answer=== colorArr[5]){
+        alert('great, it\'s true, you won');
+        scour++;
+        break;
+      }
+    }
+  }
+  guessColor();
+
+
+//__________________________________________________________________________
+
+
+
+
+
+
+
 alert('Thanks' + " " + userName + " " + 'for your answers, your score is' + "  " + scour + "   " + '.\n I hope that you have enjoyed with us..');
