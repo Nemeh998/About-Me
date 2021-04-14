@@ -136,7 +136,7 @@ function fun6() {
       alert('to hight');
 
     }
-    else if (guessingnum === 20) {
+    else if (guessingnum == 20) {
 
       alert('great, it\'s true.');
       scour++;
