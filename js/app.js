@@ -154,7 +154,7 @@ function guessColor (){
   
     for(let i=0 ; i < 6 ; i++ ){
       var answer = prompt(`you have ${6-i} attempts: \n select a color from the list.\n which one is my favorite color?\n ${colorArr.join(' - ')}`).toLowerCase();
-      if(answer=== colorArr[5]){
+      if(answer=== colorArr[7]){
         alert('great, it\'s true, you won');
         scour++;
         break;
