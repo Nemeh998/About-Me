@@ -162,19 +162,19 @@ fun6();
 
 
 function guessColor() {
+     const colorArr = ['red', 'green', 'blue', 'yellow', 'gray', 'white', 'brown', 'skyBlue', 'black', 'orange', 'purple', 'pink', 'maroon', 'gold', 'bronze', 'silver'];
   alert('One last game, you have 6 attempts to choose the correct favorite color from list of colors');
 
   for (let i = 0; i < 6; i++) {
-    const colorArr = ['red', 'green', 'blue', 'yellow', 'gray', 'white', 'brown', 'skyBlue', 'black', 'orange', 'purple', 'pink', 'maroon', 'gold', 'bronze', 'silver'];
-    let answer = prompt(`you have ${6 - i} attempts: \n select a color from the list.\n which one is my favorite color?\n ${colorArr.join(' - ')}`).toLowerCase();
-    if (answer === colorArr[7]) {
+ 
+    var answer = prompt(`you have ${6 - i} attempts: \n select a color from the list.\n which one is my favorite color?\n ${colorArr.join(' - ')}`).toLowerCase();
+    if (answer === colorArr[8]) {
       alert('great, it\'s true, you won');
       scour++;
       break;
     }
   }
-  console.log(scour);
-  return(scour);
+
 }
 guessColor();
 
