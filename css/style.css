@@ -118,3 +118,14 @@ color: #ddd5d5;
       
 
     }
+div{
+    font-size:2.5rem ;
+    text-align: center;
+    background-color:lightgrey;
+    border: 10px solid black;
+    padding:10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 5px rgba(78, 67, 67, 0.699);
+    border-radius: 15px;
+
+}
